@@ -14,16 +14,16 @@ Aquí estarán mis notebooks y scripts organizados por tema.
    - Operadores aritméticos y lógicos
    - Cadenas de texto (strings)
 
-3. **Estructuras de Datos**
-   - Listas
-   - Tuplas
-   - Diccionarios
-   - Conjuntos (sets)
-
-4. **Control de Flujo**
+3. **Control de Flujo**
    - Condicionales (`if`, `else`, `elif`)
    - Bucles (`for`, `while`)
+   
+4. **Estructuras de Datos**
+   - Listas     
    - Comprensiones de listas
+   - Tuplas  
+   - Diccionarios 
+   - Conjuntos (sets)
 
 5. **Funciones**
    - Definición y uso de funciones
