@@ -1,0 +1,52 @@
+===========================
+📘 NOTAS DEL PROYECTO
+Sistema de Gestión de Inventario (Clase 22)
+===========================
+
+🎯 OBJETIVO:
+Este proyecto tiene como meta aplicar los conocimientos de manejo de archivos (.csv) 
+y estructuras de datos (listas, diccionarios) en un contexto realista: 
+la administración de un inventario de productos.
+
+===========================
+🧩 IDEAS PARA MEJORAS
+===========================
+
+1️⃣ Agregar nuevas funciones:
+    - Editar productos existentes (por nombre).
+    - Eliminar productos del inventario.
+    - Buscar productos por nombre o rango de precio.
+    - Calcular el valor total del inventario (precio × cantidad).
+
+2️⃣ Validaciones:
+    - Evitar duplicados de productos.
+    - Impedir que se ingresen precios o cantidades negativas.
+    - Mostrar mensajes de error claros y amigables.
+
+3️⃣ Persistencia de datos:
+    - Actualmente, los datos se guardan en un archivo CSV.
+    - En futuras clases, se puede migrar a un archivo JSON o base de datos SQLite.
+
+4️⃣ Interfaz:
+    - Crear una interfaz de texto más atractiva con menús numerados y colores.
+    - O, para un nivel más avanzado, construir una interfaz gráfica (Tkinter o PyQt).
+
+===========================
+🧠 APRENDIZAJES CLAVE
+===========================
+
+- Lectura y escritura de archivos CSV con `csv.reader` y `csv.DictWriter`.
+- Estructuración de un proyecto Python con varios archivos.
+- Separación de lógica, datos y documentación.
+- Trabajo con listas de diccionarios.
+- Importancia de validar la entrada del usuario.
+
+===========================
+📅 PRÓXIMOS PASOS
+===========================
+
+✔️ Clase 23: Versión avanzada del sistema de inventario.
+    - Implementar edición, búsqueda y eliminación de productos.
+    - Manejo de excepciones más robusto.
+    - Uso de funciones para modularizar el código.
+
