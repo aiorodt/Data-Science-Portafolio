@@ -1,0 +1,72 @@
+# 🧠 Notas - Clase 23: Sistema de Inventario Avanzado
+
+## 🎯 Objetivo de la Clase
+Mejorar el sistema de inventario creado en la Clase 22 para hacerlo más completo y profesional, añadiendo nuevas funciones y aplicando buenas prácticas de programación.
+
+---
+
+## 🧩 Contenido de la Clase
+
+### 1. Modularización del Código
+- Se divide el programa en funciones separadas:
+  - `agregar_producto()`
+  - `listar_inventario()`
+  - `buscar_producto()`
+  - `editar_producto()`
+  - `eliminar_producto()`
+- Esto mejora la legibilidad y facilita el mantenimiento del código.
+
+### 2. Búsqueda de Productos
+- Permite buscar por **nombre** o **ID**.
+- Soporta coincidencias parciales (por ejemplo, escribir "lap" encuentra “laptop”).
+- Se muestran los resultados en pantalla de manera clara.
+
+### 3. Edición de Productos
+- Permite modificar el **precio** o la **cantidad** de un producto existente.
+- El sistema actualiza automáticamente el archivo `inventario.csv`.
+- Se evita la duplicación de productos mediante validación.
+
+### 4. Eliminación de Productos
+- Permite eliminar productos por su ID.
+- Incluye confirmación del usuario antes de borrar.
+- Si el producto no existe, muestra un mensaje de advertencia.
+
+### 5. Manejo Avanzado de Excepciones
+- Uso de `try-except` para controlar errores comunes:
+  - `FileNotFoundError` → si el archivo `inventario.csv` no existe.
+  - `ValueError` → si se ingresan datos no válidos.
+  - `IOError` → errores al leer o escribir el archivo.
+- Se añaden mensajes explicativos para guiar al usuario.
+
+---
+
+## 🧱 Estructura del Proyecto
+
+01_Python_Basico_Clase23/
+│
+├── main.py # Código del sistema de inventario avanzado
+├── inventario.csv # Archivo donde se guardan los productos
+├── README.md # Guía del proyecto y su uso
+└── notas.txt # Apuntes teóricos y observaciones
+
+
+---
+
+## 💡 Recomendaciones Prácticas
+- Prueba cada función por separado antes de combinar todo.
+- Mantén una copia de seguridad del archivo `inventario.csv`.
+- Evita valores negativos en precios o cantidades.
+- Usa nombres de variables claros y en minúsculas.
+- Guarda los cambios antes de cerrar el programa.
+
+---
+
+## 🧠 Conceptos Clave
+- **Modularidad:** dividir un programa en partes pequeñas y reutilizables.
+- **Persistencia de datos:** guardar información en un archivo para que no se pierda al cerrar el programa.
+- **Excepciones:** forma de manejar errores sin que el programa se detenga.
+- **CSV:** formato de texto que permite guardar datos en filas y columnas.
+
+---
+
+
