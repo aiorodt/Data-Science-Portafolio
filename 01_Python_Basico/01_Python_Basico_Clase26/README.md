@@ -1,4 +1,4 @@
-# ✅ Clase 27 — Proyecto 4: Gestor de Tareas (To-Do List Avanzado)
+# ✅ Clase 26 — Proyecto 4: Gestor de Tareas (To-Do List Avanzado)
 
 ## 📘 Introducción
 En este proyecto desarrollarás un **Gestor de Tareas (To-Do List)** avanzado, que permitirá agregar, marcar, eliminar y guardar tareas.  
