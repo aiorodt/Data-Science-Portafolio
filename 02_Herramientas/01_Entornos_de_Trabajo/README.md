@@ -201,4 +201,4 @@ Luego, genera un script que grafique datos simulados de crecimiento celular.
 │   ├── entorno_ventas/          # entorno virtual (no subir al repo)
 │   └── requirements.txt
 
-✅ Al completar esta clase, podrás crear y gestionar entornos profesionales para cualquier proyecto de ciencia de datos en Python.
+✅ Al completar esta clase, podrás crear y gestionar entornos profesionales para cualquier proyecto de ciencia de datos en Python.66
